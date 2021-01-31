@@ -1,6 +1,6 @@
 package com.example.roomapi.db
 
-class SubscriberRepo(private val dao: MemberDao)
+class MemberRepo(private val dao: MemberDao)
 {
     val members = dao.getAllMember()
 
