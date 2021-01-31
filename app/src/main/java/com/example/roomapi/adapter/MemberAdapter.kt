@@ -22,6 +22,7 @@ class MemberAdapter (private val clickListener:(Member)->Unit)
     }
 
     override fun getItemCount(): Int {
+        //getting size of the items
         return MembersList.size
     }
 
